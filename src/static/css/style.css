@@ -57,3 +57,37 @@ body {
     padding: 20px;
     text-transform: uppercase;
 }
+
+
+.home_container {
+    display: flex;
+}
+
+
+.all_publication_container {
+    width: 60%;
+}
+
+.all_publication_container .item {
+    width: 80%;
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 3px;
+    background-color: white;
+}
+
+
+
+.top_publication_container {
+    position: fixed;
+    top: 0;
+    right: 50px;
+    width: 30%;
+}
+
+.top_publication_container .item_top {
+    width: 90%;
+    height: 150px;
+    margin: 20px auto;
+    background-color: white;
+}
