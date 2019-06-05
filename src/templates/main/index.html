@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+    <div class="container_main">
+
+        <h5>NIRIOS.COM</h5>
+
+        <h4>Hi, this is a platform for people who have ideas on how to improve our world.<br/>
+            You can write an article and discuss problems that concern you.
+        </h4>
+
+        <div class="btn_main">
+            <a href="{% url 'main:about' %}">about</a>
+            <a href="#">countinue</a>
+        </div>
+
+
+
+    </div>
+
+{% endblock %}
